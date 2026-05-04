@@ -1,0 +1,243 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Page Layout ===== */
+html{
+  height: 100%;
+  margin: 0;
+}
+.page-wrapper {
+  min-height: 100%;      /* fill the page height */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;               /* expand to push footer down */
+}
+
+
+/* ===== Body ===== */
+body {
+  height: 100%;
+  margin: 0;
+  padding-top: 60px; /* adjust to match .navbar height */
+  background-image: url("pictures/bwaveBackground.GIF");
+  background-size: cover;        /* scale to fill the viewport */
+  background-position: center;   /* keep it centered */
+  background-repeat: no-repeat;  /* prevent tiling */
+  background-attachment: fixed;  /* optional: makes it stay fixed while scrolling */
+  font-family: 'Verdana', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+  position: fixed;     /* lock to viewport */
+  top: 0;              /* distance from top of screen */
+  left: 0;             /* stretch across */
+  width: 100%; 
+  background: linear-gradient(90deg,  #fce249, #fc342d);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  border-bottom: 2px solid #000;
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex: 1;       /* allows centering of the link group */
+}
+
+.navLinks a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s;
+}
+
+/* Fun retro underline effect */
+.navLinks a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+.navBarLogo img {
+  flex: 0 0 auto;
+  padding-top:5px;
+  padding-left:5px;
+  text-align: center;  /* adjust as needed */
+}
+
+
+/* ===== Page Layout ===== */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0eae0; 
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 8px 8px 0px #930000;
+}
+
+.table{
+  font-size: 14px;
+  max-width:875px;
+  flex-wrap: wrap; 
+}
+
+.table td, .table th {
+  padding: 12px 20px;   /* top/bottom 12px, left/right 20px */
+} 
+
+.nmr2PicContainer {
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #f0eae0; 
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 8px 8px 0px #020093;
+}
+
+.nmr2PicContainer img{
+  padding: 10px;
+  height: auto;              /* preserve aspect ratio */
+  max-width: 100%;           /* ensure it never overflows the container */
+}
+
+.imgContainer {
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 40px auto;
+  background-color: #f0eae0; 
+  border: 2px solid #000;
+  box-shadow: 8px 8px 0px #b59700;
+}
+
+.imgContainer img {
+  display: inline-block;            /* remove inline gaps */
+  width: 100%;               /* fill the container width */
+  height: auto;              /* preserve aspect ratio */
+  max-width: 100%;           /* ensure it never overflows the container */
+}
+
+.biosContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0eae0; 
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 8px 8px 0px #006905;
+}
+
+.biosBox {
+  flex: 1;              /* optional: makes boxes share space equally */
+  padding: 5px;
+}
+.biosBox img{
+  height:auto; 
+  display: block; 
+  max-width: 100%;
+}
+
+.centeredImageContainer{
+  text-align: center;
+}
+
+.bullet-posi {
+  margin-right: 200px;
+  margin-left: 100px !important;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-family: 'Courier New', monospace;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #930000;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin-bottom: 7px;
+  color:#000;
+}
+
+/* ===== Paragraphs ===== */
+.centeredP {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* ===== footer ===== */
+.footer {
+  width: 100%;          /* full width */
+  display: flex;
+  align-items: center;        /* vertically center all children */
+  justify-content: space-between; /* left & right to edges */
+  padding-bottom: 1px;
+  padding-top: 5px;
+  padding-left:5px;
+  padding-right:5px;
+  background-color: #f0eae0; 
+  color: black;
+  border-top: 2px solid #000;
+}
+
+/* Make center item truly centered in the footer */
+.footer-center {
+  position: absolute;         /* take it out of the flex flow */
+  left: 50%;
+  transform: translateX(-50%); /* horizontal centering */
+  text-align: center;
+}
+
+.footer-left img,
+.footer-right img {
+  width: 50px;                /* adjust as needed */
+}
