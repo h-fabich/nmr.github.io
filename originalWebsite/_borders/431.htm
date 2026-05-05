@@ -1,0 +1,156 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>431</title>
+</head>
+
+<body>
+<b>
+
+<p>What I never fully understood about NMR diffusion experiments.</p>
+</b>
+
+<p ALIGN="RIGHT">21 July 1994</p>
+
+<p>Dear Dr. Shapiro,</p>
+
+<p>Our postdoc, Lee Z. Wang, has been doing some calculations on diffusion in the presence
+of barriers. In an attempt to understand his work, I have gained some understanding of
+this problem which is what I want to talk about. The hope is that some of this is new to
+some of the readership and will be useful.</p>
+
+<p>As has been known for a long time, the problem is to figure out how the pulsed gradient
+spin echo (PGSE) NMR signal is affected by the diffusion of spins in the presence of
+barriers. This subject is even more important than in the past because of the emergence of
+imaging which allows the measurements of inhomogeneous diffusion coefficients with various
+anisotropies, leading to information on microscopic structures through which flow and
+diffusion take place. This all goes back to the original work of Stejskal, Cotts, and
+others which speaks well of those pioneers<i>. </i>A detailed up-to-date summary is in the
+excellent book: Paul Callaghan, <u>Principles of Nuclear Magnetic Resonance Microscopv,</u>
+Oxford, 1991.</p>
+
+<p>In the usual PGSE experiment, magnetic field gradient pulses are applied for time <font
+FACE="Symbol">d</font> on either side of the 180-degree pulse. The conventional notation
+also calls the interval between the gradient pulses <font FACE="Symbol">D</font> (so that <font
+FACE="Symbol">d</font> <font FACE="Symbol">£</font> <font FACE="Symbol">D</font> ), the
+diffusion coefficient D, and the dimension of the restricted space a. There are three
+regimes into which the problem can be (and has been) divided. The first is the so-called <u>free
+diffusion</u> limit, <font FACE="Symbol">D</font> D&lt;&lt; a<sup>2</sup>, in which the
+spins hardly diffuse in the longest time of interest <font FACE="Symbol">D</font> and,
+thus, the diffusing spins do not, on average, encounter the barriers. The second is the
+so-called <u>restricted</u> <u>diffusion</u> case in which <font FACE="Symbol">D</font>
+D&gt;&gt;a<sup>2</sup> but <font FACE="Symbol">d</font> D&lt;&lt;a<sup>2</sup>. This means
+that <font FACE="Symbol">D</font> D is now large enough for the spins, on average, to
+encounter the barriers many times during <font FACE="Symbol">D</font> but not during the
+gradient pulse <font FACE="Symbol">d</font> . The last condition is the so-called short
+pulse approximation in which <font FACE="Symbol">d</font> &lt;&lt;<font FACE="Symbol">D</font>
+. The final case is for <font FACE="Symbol">d</font> D&gt;&gt;a<sup>2</sup> (which implies
+<font FACE="Symbol">D</font> D&gt;&gt;a<sup>2</sup><i> </i>because <font FACE="Symbol">d</font>
+<font FACE="Symbol">£</font> <font FACE="Symbol">D</font> ), i.e., the spins diffuse so
+much that, on average, they encounter the barriers many times even during <font
+FACE="Symbol">d</font> . For this case, the signal attenuation caused by diffusion
+presumably has a major contribution during the gradient pulse. We call this case <u>rapid
+diffusion.</p>
+</u>
+
+<p>There is a minor semantic difficulty here. Free diffusion is exactly the opposite of
+rapid diffusion, i.e., the former is the case where the diffusion is so small, the time <font
+FACE="Symbol">D</font> so short, or the barrier spacing so large, that the barriers are
+effectively nonexistent. Maybe limited diffusion is a better term. The term restricted
+diffusion is not exactly appropriate either because the barriers restrict the spins in
+both the restricted and rapid diffusion cases whereas the usual restricted diffusion does
+not include rapid diffusion.</p>
+
+<p>Lee used a stochastic theory of random motion with a Gaussian phase distribution
+assumption to derive a general expression that is not limited to the so-called short pulse
+gradient approximation, <font FACE="Symbol">d</font> D&lt;&lt;a<sup>2</sup>. The resulting
+expression goes to sensible limits. Specifically, the attenuation exponent <font
+FACE="Symbol">a</font>, defined by the expression for the signal amplitude S=S<sub>0</sub>exp(-<font
+FACE="Symbol">a)</font>, becomes, to within a multiplicative constant</p>
+
+<p><font FACE="Symbol">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; g</font><sup>2</sup>g<sup>2</sup>d<sup>2</sup>D(<font
+FACE="Symbol">D-d/3),</font> <font FACE="Symbol">D</font>D&lt;&lt;a<sup>2</sup>,<i> </i>free
+diffusion,</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+a<sup>2</sup><font FACE="Symbol">g</font><sup>2</sup>g<sup>2</sup><font FACE="Symbol">d</font><sup>2</sup>,
+<font FACE="Symbol">D</font>D&gt;&gt;a<sup>2</sup><i> </i>but <font FACE="Symbol">d</font>D&lt;&lt;a<sup>2</sup>,
+restricted diffusion,</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+and a<sup>4</sup><font FACE="Symbol">g</font><sup>2</sup>g<sup>2</sup><font FACE="Symbol">d</font>/D,
+<font FACE="Symbol">d</font>D&gt;&gt;a<sup>2</sup>, rapid diffusion.</p>
+
+<p>The free and the restricted diffusion limits agree with the usual well-known
+expressions [due to Stejskal, et al., and discussed in various parts of Callaghan, for
+example] while the rapid diffusion expression goes, in the limit <font FACE="Symbol">d</font>
+<font FACE="Symbol">Þ</font> <font FACE="Symbol">D</font> , to Neuman's result [J. Chem.
+Phys. <u>60,</u> 4508-4511 (1974)] for nonpulsed, i.e., cw, gradient experiments.</p>
+
+<p>The physical pictures for the first two cases are well known. Without going into
+detail, <font FACE="Symbol">a</font> keeps increasing for increasing D and <font
+FACE="Symbol">D</font> for free diffusion because (D<font FACE="Symbol">D</font> )<sup>0.5</sup>
+is equal to the diffusion distance and the attenuation is proportional to the width of the
+phase distribution. The expression for restricted diffusion, for which <font FACE="Symbol">D</font>
+D&gt;&gt;a<sup>2</sup>, is obtained by replacing D<font FACE="Symbol">D</font> , the
+square of the diffusion distance, by a<sup>2</sup>, the square of the barrier distance, in
+the free diffusion expression.<font FACE="Symbol">a</font> is independent of <font
+FACE="Symbol">D</font> and D because the numerous encounters with the walls during <font
+FACE="Symbol">D</font> makes the average coordinates the same for all the spins.</p>
+
+<p>For the rapid diffusion case in which substantial diffusion takes place during the
+gradient, the dephasing of the spins depends not on the initial and final phases of the
+spins, as in the first two cases, but on the time integrals of their positions (which are
+proportional to their frequencies) during <font FACE="Symbol">d</font> , as shown by
+Douglass and McCall [J. Phys. Chem. 62, 1102 (1958)] for the cw gradient experiment.
+Neuman provides a helpful insight for the <font FACE="Symbol">d</font> -dependence by
+considering spins jumping between the positions corresponding to the two barriers. He
+shows that the phase distribution becomes Gaussian after a large number of wall
+encounters. The spins at the extremes in the distribution are those that get
+&quot;stuck&quot; at the barriers and their phase differences increase linearly with time <font
+FACE="Symbol">d</font> .</p>
+
+<p>Irv Lowe has pointed out to me that the rapid diffusion limit can be obtained by
+considering the dephasing of the spins in the presence of the field gradient as a T<sub>2</sub>
+process where signal should decay as exp(-<font FACE="Symbol">d</font> /T<sub>2</sub>).
+Slichter (on p. 154 of the 1963 edition and pp.212-213 in the 1990 edition) shows that 1/T<sub>2</sub>=<font
+FACE="Symbol">g</font> <sup>2</sup>H<sup>2<font FACE="Symbol">t</font> </sup>for spins
+that jump between two fields <font FACE="Symbol">±</font> H and stays at each value for
+time <font FACE="Symbol">t</font> . In our case, H=ag and <font FACE="Symbol">t</font> =a<sup>2</sup>/D
+so the signal exponent becomes -<font FACE="Symbol">d</font> /T<sub>2</sub>=-<font
+FACE="Symbol">d</font> <font FACE="Symbol">g</font> <sup>2</sup>g<sup>2</sup>a<sup>4</sup>/D<i>
+</i>which is the desired result.</p>
+
+<p>At first sight, I had a problem thinking about the 1/D dependence for rapid diffusion.
+However, it is clear that as D increases with fixed <font FACE="Symbol">d</font> , the
+phase distribution narrows because all &quot;phase paths&quot; become more similar as the
+number of wall encounters become large in the same amount of time. Furthermore, diffusion
+during a gradient pulse makes the spin phases more similar, immediately after the pulse.
+For <u>infinitely</u> large D, the phases will peak at the average value. Inbetween the
+gradients, the spins will behave as though they never saw any gradient pulses, so the
+mechanism that gave rise to attenuation in the free and restricted diffusion regimes goes
+away, too.</p>
+
+<p>Callaghan points out that diffusion &quot;imaging&quot; has no resolution limit in the
+usual sense. This is true but apparently not in the fast diffusion regime because we need
+to overcome this &quot;peaking&quot; of the spin phases during the gradient pulses in
+order to measure the attenuation caused by diffusion and this will require stronger and
+stronger gradients! So, it seems that we cannot put one over on nature.</p>
+
+<p>I am grateful to my colleagues in the lab who offered much (most?) of the insights
+here. They are Arvind Caprihan, Irv Lowe, Dean Kuethe, Allen Waggoner, and Lee Wang. I
+welcome further inputs. Lee's derivation, which started all this, will be submitted for
+publication soon.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p ALIGN="RIGHT">Eiichi Fukushima </p>
+</body>
+</html>

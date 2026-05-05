@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>399</title>
+</head>
+
+<body>
+<u>
+
+<p>A</u> <u>Simple Method to Produce Sharp Multiple Slice Irradiation.</p>
+</u>
+
+<p>Tagging by multiple stripes or a grid has been used for looking at heart wall motion
+(1,2). It has also been used for flow imaging by bolus tracking (3) and mapping flow
+streamlines (4). The method is adaptable to most imaging sequences by the addition of
+saturating radio frequency (rf) pre-pulses for tagging and it is attractive because motion
+is mapped by the displacement of stripes on standard magnitude images.</p>
+
+<p>Several different approaches have been used for tagging; by radial stripes (1), 1-3-3-1
+or 1-4-6-4-1 pulses (2), DANTE pulses (5), and modification of sine pulses (3,4). In this
+letter we show how any selective rf irradiation can be replicated in the frequency domain
+so that it becomes a multiple selective excitation.</p>
+
+<p>If S(t) is a selective rf pulse then we construct the striping pulse R(t) by zeroing
+S(t) over regularly spaced intervals. Thus</p>
+
+<p>R(t) = S(t), for kt - A <font FACE="Symbol">£</font> t <font FACE="Symbol">£</font>
+kt + A, for all k</p>
+
+<p>0, otherwise.</p>
+<u>
+
+<p>The function R(t) can be constructed easily from the digital form of S(t) by skipping
+points at regular intervals.</u> If we define a function f(t) = 1 for |t| <font
+FACE="Symbol">£</font> A and zero otherwise, then</p>
+
+<p>R(t) = S(t) <font FACE="Symbol">S</font> f(t + kT).</p>
+
+<p>The Fourier transform of R(t) is a given by</p>
+
+<p>R(<font FACE="Symbol">w</font> ) = F(<font FACE="Symbol">w</font> ) <font FACE="Symbol">S</font>
+S(<font FACE="Symbol">w</font> + 2<font FACE="Symbol">p</font> k/T),</p>
+
+<p>where F(<font FACE="Symbol">w</font> ) and S(<font FACE="Symbol">w</font> ) are Fourier
+transforms of f(t) and S(t) respectively. The small tip angle approximation gives the
+slice profile excited by R(t) to be R(<font FACE="Symbol">w</font> ), with <font
+FACE="Symbol">w</font> = <font FACE="Symbol">g</font> Gx , where G is the magnetic field
+gradient applied during the rf pulse. The distance between the stripes is given by X<sub>s</sub>=2<font
+FACE="Symbol">p</font> /(<font FACE="Symbol">g</font> GT). The profile of each stripe is
+determined by S(<font FACE="Symbol">w</font> ), while F(<font FACE="Symbol">w</font> ) =
+2Asin(<font FACE="Symbol">w</font> A)/( <font FACE="Symbol">w</font> A) modulates the
+periodic striping function <font FACE="Symbol">S</font> S(<font FACE="Symbol">w</font> + 2<font
+FACE="Symbol">p</font> k/T). The region of effective stripes is limited by the shape of F(<font
+FACE="Symbol">w</font> ). The shape of each stripe is S(<font FACE="Symbol">w</font> )
+which is determined by S(t). The sharpest stripe we have used is with S(t) = sin(at)/at.</p>
+
+<p>An example of stripes in a water filled pipe with 2.54 cm i.d. and a 8 mm circular
+orifice is shown in Fig. 1. We have used S(t) = sin(at)/at, for t <font FACE="Symbol">£</font>
+L, and a = 5<font FACE="Symbol">p</font> /L, where L = 8192 <font FACE="Symbol">m</font>
+s. This pulse was sampled 256 times to give a dwell time per sample to be 64 <font
+FACE="Symbol">m</font> s (<font FACE="Symbol">º</font> 2A) and 5 points were skipped to
+give T = 320 <font FACE="Symbol">m</font> s. The gradient was adjusted to give a stripe
+separation of 5 mm and the frequency offset of the rf pulse adjusted to place one stripe
+through the center of the orifice. The image on the left is without the striping pre-pulse
+and on the right with the stripes.</p>
+
+<p><img SRC="399Image.gif" WIDTH="615" HEIGHT="322"></p>
+
+<p ALIGN="CENTER">Fig. 1</p>
+
+<p>&nbsp;</p>
+
+<p>REFERENCES</p>
+
+<blockquote>
+  <p>1.Zerhouni E., Parrish D., Rodgers WJ., Yang A., and E. P. Shapiro. Radiology
+  169:59-64, 1988</p>
+  <p>Axel L. and L. Dougherty. Radiology 172:349-350,1989</p>
+  <p>Kraft, K.A., S.J. Cothran, D.Y. Fei, and P.P. Fatouras . Abstracts of 10th Annual
+  Meeting of SMRM, 835, 1991.</p>
+  <p>Icenogle, M.V., A. Caprihan, and E. Fukushima. Abstracts of 10th Annual Meeting of
+  SMRM, 814, 1991.</p>
+  <p>Mosher, T.J. and M.B. Smith. Magn. Reson. Med. 15, 334-339, 1990.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</blockquote>
+
+<p>A. Caprihan E. Fukushima P. D. Majors</p>
+</body>
+</html>

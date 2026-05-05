@@ -1,0 +1,95 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>378-33</title>
+</head>
+
+<body>
+
+<p>SLOW FLOW NMR LIMITS: Bolus tracking versus phase methods.</p>
+
+<p>Two methods for flow measurement which have been widely used are the time-of-flight and
+the phase methods. The time-of-flight method is based on detecting spin displacement
+during the time between initial excitation and signal measurement. This displacement is
+limited by the velocity of the flowing material and the lifetime of the tag. In addition,
+information outside of the bolus is not accessible without further experiments. The second
+class of methods detect the alteration of the phase of transverse spin magnetization
+induced by spin motion along a magnetic field gradient. We have always taken it for
+granted that phase methods could measure lower velocities than the bolus tracking methods
+but had not looked into this question. Here we discuss the circumstances when phase
+methods can measure slower velocities than the bolus-tracking methods. The discussion is
+in terms of stimulated echo experiments where the lifetime of the tag is T<sub>1</sub>,
+but the conclusion is equally applicable to spin echo and gradient- echo experiments.</p>
+
+<p>The difference arises because the position of the bolus is defined in the frequency
+encoding direction and its accuracy depends on the effective T<sub>2</sub><sup>*</sup>
+caused by static field homogeneity but not the applied gradient whereas the velocity
+phase-encoding is analogous to the spatial phase-encoding in spin warp imaging
+experiments, and is not affected by T<sub>2</sub><sup>*</sup> but is affected by T<sub>2</sub>.
+In a given voxel, T<sub>2</sub><sup>*</sup> will be smaller than T<sub>2</sub> because of
+inhomogeneous magnetic field within a voxel caused by susceptibility changes in the sample
+and imperfect shimming.</p>
+
+<p>First, we consider the bolus-tracking method in which the velocity V<sub>b</sub> has to
+be greater than R/T<sub>1</sub><i> </i>where R is the resolution of the imaging
+experiment, in order to resolve the bolus displacement. For a given T<sub>2</sub><sup>*</sup>
+the half-height bandwidth of the broadening is 2/ T<sub>2</sub><sup>*</sup>. and if the
+read-out gradient is G, this corresponds to a resolution of R = 2/<font FACE="Symbol">g</font>
+G T<sub>2</sub><sup>*</sup> , which leads to the lower limit on the measurable velocity of</p>
+
+<p>V<sub>b</sub> = 2/<font FACE="Symbol">g</font> GT<sub>1</sub>T<sub>2</sub><sup>*</sup>.
+[1]</p>
+
+<p>Here we are assuming that, because of broadening, the bolus has to move a distance R
+before it can be accurately distinguished from its original position.</p>
+
+<p>The phase methods depend on the phase shift of the transverse magnetization of spins
+moving with a constant velocity and a component V along the velocity encoding gradient G
+being given by</p>
+
+<p><font FACE="Symbol">f</font> = <font FACE="Symbol">g</font> m<sub>1</sub>V [2]</p>
+
+<p>where m<sub>1 </sub>is proportional to the first moment of the gradient (m<sub>1</sub>
+= <font FACE="Symbol">ò</font> tG(t) dt with <br>
+<font FACE="Symbol">ò</font> G(t) dt = 0). A simple velocity encoding method consists of
+a bipolar gradient pulse, with gradient amplitude G, duration T, and the time between the
+pulses T<sub>d</sub>. Then</p>
+
+<p>m<sub>1</sub> = GTT<sub>d</sub> [3]</p>
+
+<p>&nbsp;</p>
+
+<p>and the flow induced phase shift is given by <font FACE="Symbol">f</font> = <font
+FACE="Symbol">g</font> GTT<sub>d</sub>V. In order to measure slow flow, a sufficiently
+large first moment m<sub>1</sub>, has to be used to give a measurable phase shift. For
+bipolar gradient pulses this can be accomplished by increasing either the area of the
+gradient pulses GT or the separation of the pulses T<sub>d</sub>. Now for the phase
+method, with the transverse magnetization evolving for a time T<sub>2</sub> before forming
+an echo, the bipolar gradient pulse can have a duration of the order of T<sub>2</sub>/2,
+and the time between the pulses T<sub>d</sub> can be as long as T<sub>1</sub> for
+stimulated echoes, which implies from Eq. [3] that</p>
+
+<p>m<sub>1</sub> = GT<sub>2</sub>T<sub>1</sub>/2 [4]</p>
+
+<p>Thus, from Eqs. [2] and [4], the minimum velocity measurable by the phase method is</p>
+
+<p>V<sub>p</sub> = 2<font FACE="Symbol">F</font> /<font FACE="Symbol">g</font> GT<sub>2</sub>T<sub>1</sub>,
+[5]</p>
+
+<p>where<b> <font FACE="Symbol">F</font> </b>is<b> </b>some<b> </b>minimum<b> </b>phase<b>
+</b>shift<b> </b>distinguishable<b> </b>from<b> </b>zero.</p>
+
+<p>Because<b> </b>we<b> </b>are<b> </b>not<b> </b>directly<b> </b>considering<b> </b>the<b>
+</b>effects<b> </b>of<b> </b>the signal/noise<b> </b>ratio,<b> </b>the<b> </b>exact<b> </b>value<b>
+</b>of<b> <font FACE="Symbol">F</font> </b>is<b> </b>arbitrary<b> </b>in<b> </b>this
+discussion,<b> </b>just<b> </b>as<b> </b>the<b> </b>value<b> </b>of<b> </b>the<b> </b>minimum<b>
+</b>spatial<b> </b>resolution<b> </b>R as<b> </b>defined<b> </b>by<b> </b>the<b> </b>half-height<b>
+</b>was<b> </b>arbitrary.<b> </b>The<b> </b>main<b> </b>reason<b> </b>why V<sub>p</sub> is<b>
+</b>smaller<b> </b>than<b> </b>V<sub>b</sub> is<b> </b>because<b> </b>T<sub>2</sub><sup>*</sup>
+is<b> </b>smaller<b> </b>than<b> </b>T<sub>2</sub>. Therefore, phase<b> </b>methods<b> </b>are<b>
+</b>inherently<b> </b>more<b> </b>sensitive<b> </b>to<b> </b>slower<b> </b>velocities than
+bolus tracking when T<sub>2</sub><sup>*</sup>&lt; T<sub>2</sub>.</p>
+</body>
+</html>

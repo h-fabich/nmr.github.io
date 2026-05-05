@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>357</title>
+</head>
+
+<body>
+
+<p>Distortions of Flow Imaging due to Stimulated Echoes.</p>
+
+<p>Dear Dr. Shapiro,</p>
+
+<p>Stimulated echoes (STE; Hahn) hate been the 'focus' of much recent research in NMR
+imaging because of their interesting T<sub>1</sub> and phase dependencies (see Merboldt, <i>et.
+al., </i>and its references). However, <u>undesired</u> STE's are always present in
+experiments containing three or more rf pulses (often due to nonideal <font FACE="Symbol">p</font>
+refocussing pulses) and they can lead to severe distortion of the image obtained from the
+second primary spin echo (SE) (Zur and Stokar<i>). </i>One manifestation of the STE it a
+sinusoidal modulation of the SE image, the frequency of which is inversely proportional to
+the separation of echoes according to the modulation theorem (Bracewell). Another
+manifestation is an STE image superimposed on the SE image.</p>
+
+<p>Consider the flow phase-compensating image experiment (Caprihan, <i>et. al.</i>) shown
+in Fig. 1. In</p>
+
+<p>older to collect the SE in exclusion of the STE, we can vary the timing of the rf
+pulses to separate the SE and STE temporally. This is easy to accomplish for non-flowing
+samples, but for flow experiments, the gradient amplitude G<sub>flow</sub> during the
+various intervals must be carefully adjusted to eliminate the velocity dependence. We
+calculate these gradient values to be <img SRC="357eq1.gif" WIDTH="225" HEIGHT="30"> and <img
+SRC="357eq2.gif" WIDTH="163" HEIGHT="26">where <img SRC="357eq3.gif" WIDTH="88"
+HEIGHT="51"> and <font FACE="Symbol">t</font> is the time between the first two pulses, <i>T</i>
+is the interval from the first to the third pulse as defined by Hahn, and G<sub>1</sub>, G<sub>2</sub>,
+G<sub>3</sub> are the amplitudes for G<sub>flow</sub>, defined in Fig. 1.</p>
+
+<p>Another strategy is rf pulse phase cycling to cancel the STE, and involves the
+alternation of the phase of either <font FACE="Symbol">p</font> pulse by 180<font
+FACE="Symbol">°</font> , <i>i.e.</i> <img SRC="357eq4.gif" WIDTH="203" HEIGHT="30">or <img
+SRC="357eq5.gif" WIDTH="203" HEIGHT="30">, where G<sub>PE</sub> is the phase-encoding
+gradient. However, this requires the repetition and coaddition of each G<sub>PE</sub>
+increment at least twice (at least 6 times with QPC) thus possibly increasing the
+experimental time. Because the modulation effect is prominent even when the STE is very
+small relative to the SE, this technique requires high reproducibility making electronic
+drift and sample movement intolerable. Fig. 2a is the transverse projection image of a
+slice in a tube of water (no flow) using the sequence in Fig. 1. Fig. 2b was obtained
+using the first phase-cycling scheme listed above and the image modulation is diminished.</p>
+
+<p>Finally, the STE image can, in principle, be compressed into one dimension by placing
+the phase encoding (PE) gradient G<sub>PE</sub> after the first <font FACE="Symbol">p</font>
+pulse where the STE spins will not &quot;see&quot; it, rather than after the <font
+FACE="Symbol">p</font> /2 pulse (see Fig. 1). The compressed STE image runs through the
+center of the image window, but it is a sharp feature, and can be easily accounted for
+(Fig.·2c)· It can also be shifted to the edges of the window in the PE dimension (Fig.
+2d) by alternating either <font FACE="Symbol">p</font> pulse on alternate PE steps, <i>i.e.</i>,
+<img SRC="357eq6.gif" WIDTH="225" HEIGHT="33">or <img SRC="357eq7.gif" WIDTH="221"
+HEIGHT="33"> (where n is the PE increment number), because the STE signal is then
+modulated at the Nyquist frequency, This rf phase-cycling scheme requires <u>no</u> up
+co-addition of signals, so that the experiment time is not increased. The STE image in
+Figs. 2c and 2d show a significant width which we tentatively attribute to eddy currents
+from the G<sub>PE</sub> pulse which which survive until after the final <font
+FACE="Symbol">p</font> pulse. The remaining artifacts are due to quadrature imperfections.</p>
+
+<p>Please credit this contribution to the account of Dr. Eiichi Fukushima.</p>
+
+<p>Sincerely,</p>
+
+<p>Paul D. Majors</p>
+
+<p><img SRC="357image.gif" WIDTH="604" HEIGHT="784" ALIGN="RIGHT" HSPACE="15"> </p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Figure 1</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Figure 2</p>
+<u>
+
+<p>References</p>
+</u>
+
+<p>Bracewell, R.N., The Fourier Transform and Its Applications, 2nd ed. revised,
+McGraw-Hill, New</p>
+
+<p>York, 1986; p.108.</p>
+
+<p>Caprihan, A., Davis, J. G., Altobelli, S. A. and Fukushima, E., <i>Magn. Reson. Med., </i>3,
+352-362, 1986.</p>
+
+<p>Hehn, E.L., <i>Phys. Rev. </i>80, 580-594 (1950).</p>
+
+<p>Merboldt, Hänicke, and Frahm, <i>J. Magn. Reson. </i>67, 336 (1986).</p>
+
+<p>Zur, Y., and Stokar, S., <i>J. Magn. Reson. </i>71, 212-228 (1987).</p>
+</body>
+</html>
